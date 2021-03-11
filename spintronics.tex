@@ -16,6 +16,7 @@
 %Import the natbib package and sets a bibliography  and citation styles
 %\usepackage{natbib}
 %\bibliographystyle{ksfh_nat}
+
 \captionsetup[figure]{labelfont=bf,font={small, sf, it}}
 \newcommand\etc{\textsl{etc}}
 \newcommand\eg{\textsl{eg.}\ }
@@ -435,7 +436,7 @@ For simplicity, we will only use the expression in Eq. \ref{eq:HF} for the rest 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/confined_structures_Si.png}
+\includegraphics[width = 1\textwidth]{figures/confined_structures_Si.png}
 \caption{Sketch of different types of quantum confined structures (image taken from \cite{zwanenburg_silicon_2013})}
 \label{fig:confined}
 \end{figure}
@@ -473,7 +474,7 @@ Quantum states associated to individual spins can be used as quantum bits for qu
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/quantum_dot_donor.png}
+\includegraphics[width = 1\textwidth]{figures/confined_structures_Si.png}
 \caption{Examples of implementations of spin qubits: donors in Si (top) and 2DEG quantum dots (bottom). For donors, the confining potential is given by the atomic Coulomb potential, for the quantum dot by electrostatic gates. Image taken from \cite{morton_embracing_2011}}
 \label{fig:QD_donor}
 \end{figure}
@@ -500,7 +501,7 @@ source and drain reservoirs in the 2DEG. Those reservoirs are connected to macro
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/spin_polarisation.png}
+\includegraphics[width = 1\textwidth]{figures/spin_polarisation.png}
 \caption{Polarisation $P$ (Eq. AAA) as a function of the applied magnetic field for an electron spin (left) and a $^{13}$C nuclear spin (right), for different temperatures. An electron spin can get effectively fully polarised at mK temperatures for a field of few hundred mT, and it can achieve significant polarisation even at $T=4$K. A nuclear spin, on the other hand, can only achieve minimal polarisation even at ultra-low temperatures.}
 \label{fig:spin_polar}
 \end{figure}
@@ -526,7 +527,7 @@ For temperatures close to zero, when the population is all in $m_s = -1/2$, the 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width =1\textwidth]{B21NS_Qmaterials&devices/wk8/optical_spin_init_RO.png}
+    \includegraphics[width =1\textwidth]{figures/optical_spin_init_RO.png}
     \caption{{\bf optical spin polarisation and readout}. {\bf (1)} a $\Lambda$ level system can be efficiently polarise an electronic spin: by exciting the $\omega_{\uparrow}$ "spin-flip" transition between $\ket{\uparrow}$ and the excited state $\ket{e}$ ((a)), the population is pumped out of $\ket{\uparrow}$ and fully transferred to $\ket{\downarrow}$ ((b)). {\bf (2)} two separated "cycling" transitions can be used for spin readout. If the spin state is $\ket{\uparrow}$, selectively exciting the $\nu_{\uparrow}$ transition will generate photons, that can be detected ((c)). If the spin state is $\ket{\downarrow}$, then no photons will be generated when selectively exciting the $\nu_{\uparrow}$ transition ((d)). This scheme relies on the capability to couple to one of the spin states ($\ket{\uparrow}$ in the figure), without exciting the transition $\nu_{\downarrow}$ coupled to $\ket{\downarrow}$. This requires the two optical transitions ($\nu_{\downarrow}$, $\nu_{\uparrow}$) to have different wavelengths, or different optical polarisation. {\bf (3)} a W-scheme, with a combination of "cycling" and "spin-flip" transitions can be used, if available, to achieve both spin polarisation and readout.}
     \label{fig:optical_init_RO}
 \end{figure}
@@ -537,7 +538,7 @@ For temperatures close to zero, when the population is all in $m_s = -1/2$, the 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/QD_donor_readout.png}
+\includegraphics[width = 1\textwidth]{figures/QD_donor_readout.png}
 \caption{ {\bf Electrical spin readout mechanisms} from \cite{morton_embracing_2011}. {\bf(a)} on the top row, readout scheme for an electrostatic 2DEG quantum dot, through spin-dependent tunneling rates. The two spin states for a single electron are split by a magnetic field, such that the $\ket{\uparrow}$ state has sufficient energy to tunnel out of the dot. A charge sensor detects the charging state of the dot, as shown by the experimental data on the right. {\bf (b)} on the bottom row, a similar scheme outline for a donor in silicon, coupled to a single electron transistor for charge detection.}
 \label{fig:QD_RO}
 \end{figure}
@@ -557,7 +558,7 @@ As we have seen, given ghat the detection of the magnetic moment of a single ele
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 0.8\textwidth]{B21NS_Qmaterials&devices/wk8/readout_SSRO_AVG.png}
+\includegraphics[width = 0.8\textwidth]{figures/readout_SSRO_AVG.png}
 \caption{Readout of a qubit $\ket{Q} = \alpha \ket{0} + \beta \ket{1}$ delivers a different number of events ($x_0$ or $x_1$), e.g. detected photons or electrons, depending on the readout basis state ($\ket{0}$ or $\ket{1}$). If the difference in detector clicks between $x_0$ and $x_1$ is larger than their standard deviation, then the qubit state can be determined in a {\bf single shot}. Otherwise, several repetions needs to be performed to infer the qubit state ({\bf averaged readout}). }
 \label{fig:SSRO}
 \end{figure}
@@ -569,7 +570,7 @@ At finite temperature, once a spin system has been polarised, it does not hold p
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/T1_example.png}
+\includegraphics[width = 1\textwidth]{figures/T1_example.png}
 \caption{{\bf $T_1$ relaxation}. On the left, experimental measurement of $T_1$ relaxation for the electronic spin of a nitrogen-vacancy centre in diamond, at room temperature (with characteristic $e^{-\tau/T_1}$ dependence. On the right, experimental data for the relaxation rate ($1/T_1$) for Mo impurities in SiC, as a function of the temperature $T$, highlighting the impact of the different spin-phonon processes that affect relaxation (from \cite{gilardoni_spin-relaxation_2020}).}
 \label{fig:T1_exp}
 \end{figure}
@@ -687,7 +688,7 @@ If your driving field is detuned from the Zeeman splitting $\omega_0$ between th
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width =1\textwidth]{B21NS_Qmaterials&devices/wk8/rabi.png}
+    \includegraphics[width =1\textwidth]{figures/rabi.png}
     \caption{Rabi oscillations on a two-level system, driven by (a) resonant excitation ($\Delta = 0$) - (b) with a detuning. Excitation at a detuned frequency results in Rabi oscillations with larger frequency and smaller amplitude.}
     \label{fig:rabi}
 \end{figure}
@@ -753,7 +754,7 @@ One thing to note is that, even though we have not really discussed it here, the
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/microwaves.png}
+\includegraphics[width = 1\textwidth]{figures/microwaves.png}
 \caption{Examples of structures to deliver a microwave magnetic field for spin driving. {\bf (a)} microstrip. {\bf (b)} coplanar waveguide. All structures need to be design for $50 \Omega$ impedance at the operation frequency to avoid reflections and pulse distortion. {\bf (c)} Example from our lab. Microwaves are delivered to the sample via a coaxial cable (with SMA connector), through a coplanar waveguide and then a thin ($20 \mu$m) wire soldered across the diamond sample.}
 \label{fig:MW}
 \end{figure}
@@ -782,7 +783,7 @@ For an electron spin ($\gamma_e \sim 28 $GHz/T for magnetic fields in the $~100$
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/T2_star.png}
+\includegraphics[width = 1\textwidth]{figures/T2_star.png}
 \caption{On the left, the central electron spin is immersed in a "bath" given by other paramagnetic impurities and nuclear spins in the solid-state matrix. Given that the gyromagnetic ratio for electronic spins is $10^3-10^4$ larger than for nuclear spin, the priority in developing quantum-grade material is to eliminate paramagnetic impurities. On the right, the distribution in magnetic field given by the presence of different paramagnetic impurities and nuclear spins at different distances from the central spin results in a distribution of Larmor frequencies (top right). This leads to a decay of quantum coherence over time, characterised by a characteristic dephasing timescale $T_2^*$ (bottom right).}
 \label{fig:T2_star}
 \end{figure}
@@ -932,7 +933,7 @@ A Hahn echo experiment is performed as follows:
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 0.8\textwidth]{B21NS_Qmaterials&devices/wk8/pulse_sequence.png}
+\includegraphics[width = 0.8\textwidth]{figures/pulse_sequence.png}
 \caption{{\bf Summary of pulse sequences for standard experiments}. For each experiment, we outline when initialisation ("init"), readout ("RO") and control ("ctrl") pulses are activated. For the "control" line, the shorter pulses are $\pi/2$ pulses, the longer ones are $\pi$ pulses. }
 \label{fig:pulse_sequences}
 \end{figure}
@@ -994,7 +995,7 @@ When cooled to liquid helium temperatures ($T \sim 4$K), the NV centre displays 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/NV_centre_LT.png}
+\includegraphics[width = 1\textwidth]{figures/NV_centre_LT.png}
 \caption{{\bf Quantum spintronics with a single NV centre in diamond at low-temperature (from TU Delft)}. {\bf (a)} A sample holder with several ports for microwave delivery (including coplanar waveguides) and electrical DC contacts hosts a diamond sample (left). Solid immersion lenses are milled by focused ion beam to increase photon collection efficiency (by a factor $10$x-$20x$ (right). {\bf (a)} High-fidelity single-shot electron spin initialisation and readout is performed by optical excitation of narrow spin-selective transitions within the defect zero-phonon line (from \cite{robledo_high-fidelity_2011}). The $E_x$ transition is a "cycling" transition that couples to $m_s=0$, generating a sufficient number of photon to discriminate the spin state, when excited. The $A_1$ transition is a "spin-flip" transitions that couples to $m_s = \pm 1$ and, when excited, eventually decays into $m_s = 0$, enabling polarisation into $m_s = 0$. The transitions $E_x$ and $A_1$ can be differentiated, and selectively excited, because they appear at slightly different frequencies (about $1$ GHz apart). {\bf (c)} High-fidelity Rabi oscillations between $m_s = 0$ and $m_s = -1$, achieved by driving microwave pulses of different lengths resonant with the $m_s = 0 \leftrightarrow -1$ ground-state spin transition. {\bf (d)} Ramsey experiment, showing $T_2^* \sim 0.6 \mu$s. {\bf (e)} Hahn echo experiment, showing $T_2 \sim 0.7$ ms.}
 \label{fig:NV_LT}
 \end{figure}
@@ -1033,7 +1034,7 @@ A single spin is the smallest possible magnetic spin sensor, capable of detectin
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 1\textwidth]{B21NS_Qmaterials&devices/wk8/ODMR_sensing.png}
+\includegraphics[width = 1\textwidth]{figures/ODMR_sensing.png}
 \caption{{\bf Quantum sensing with a single NV centre in diamond (from QZabre)}. On the left, sketch of a quantum sensing experiment with a single electronic spin associated to a nitrogen-vacancy centre in diamond on a diamond AFM tip. The diamond tip is scanned over a sample and allows retrieving a map of magnetisation with nanoscale spatial resolution. On the right, the magnetic field is measured by collecting photo-luminescence under green laser excitation as a function of the microwave drive frequency. When the microwave frequency is resonant with the $m_s = 0 \leftrightarrow m_s = -1$ or $m_s = 0 \leftrightarrow m_s = +1$ transition, the photoluminescence decreases, exhibiting a dip. The frequency of the dip, related the Zeeman shift, allows to measure the magnetic field projection along the NV axis.}
 \label{fig:ODMR_sensing}
 \end{figure}
@@ -1085,7 +1086,7 @@ Collecting $e^{+iAt/4}$ and neglecting global phases:
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 0.8\textwidth]{B21NS_Qmaterials&devices/wk8/kane_QC.png}
+\includegraphics[width = 0.8\textwidth]{figures/kane_QC.png}
 \caption{Kane's quantum computer proposal, based on coupled electronic and nuclear spins associated to $^{31}$P donors in Si. Coupling between neighbouring electronic spins is achieved by the exchange coupling, controlled by `$J$' electrodes which change the overlap between electron wavefunctions.}
 \label{fig:kane}
 \end{figure}
@@ -1121,7 +1122,7 @@ to ensure consistency with both quantum mechanics (Schr\"odinger equation) and s
 \beq \label{cliff}
 \{\beta, \alpha_i\} = 0, \quad \beta^2 = I, \quad \alpha_i^2 = I,
 \eeq
-where $\{\cdot \}$ is the anti-commutator, $i = (1,2,3)$ and $I$ the identity matrix. Relations \ref{cliff} tells us that $\boldsymbol \alpha$ and $\beta$ have to be square matrices with zero trace.  This means that the dimension of the vector space to which they belong must be even \cite{bd}. In $M_2(\mathbb{C})$, the space of $2 \times 2$ complex matrices there are only three indpendent matrix that satisfy the Clifford algebra in equations (\ref{cliff}), the Pauli matrices. This is not a viable choice as we need four matrices ($\alpha_i,\beta$), we find them in the $M_4(\mathbb{C})$ vector space and they are written as 
+where $\{\cdot \}$ is the anti-commutator, $i = (1,2,3)$ and $I$ the identity matrix. Relations \ref{cliff} tells us that $\boldsymbol \alpha$ and $\beta$ have to be square matrices with zero trace.  This means that the dimension of the vector space to which they belong must be even \cite{bd}. In $M_2(\mathbb{C})$, the space of $2 \times 2$ complex matrices there are only three independent matrix that satisfy the Clifford algebra in equations (\ref{cliff}), the Pauli matrices. This is not a viable choice as we need four matrices ($\alpha_i,\beta$), we find them in the $M_4(\mathbb{C})$ vector space and they are written as 
 \beq
 \beta = \left(\begin{array}{cc}I_2 & 0 \\0 & -I_2\end{array}\right) \quad \alpha_i = \left(\begin{array}{cc}0& \sigma_i \\ \sigma_i & 0\end{array}\right),
 \eeq
@@ -1218,6 +1219,6 @@ here $\mathbf L = \rr \times \p$ is the orbital angular momentum and $\mathbf S 
 \eeq
 
 
-\bibliography{B21NS_Qmaterials&devices/wk8/nanophysics_bib, B21NS_Qmaterials&devices/wk8/absbib}
+\bibliography{references/nanophysics_bib}
 \bibliographystyle{ieeetr}
 \end{document}
